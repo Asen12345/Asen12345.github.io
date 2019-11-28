@@ -1,0 +1,282 @@
+
+@media only screen and (min-width: 1800px) {
+    #head ul{
+
+margin-left: 300px;
+    }
+
+    #head li{
+       
+        margin-left: 40px;
+
+    }
+        #serv1{
+            margin-left: 150px;
+        }
+
+
+        #txt{
+            margin-left: 200px;
+
+        }
+
+        #cate{
+margin-left: 350px;
+
+        }
+        
+        #pro{
+padding-left: 250px;
+        }
+
+        .yu{
+
+            margin-left: 50px;
+            margin-top: -10px;
+        }
+       
+        #count{
+
+            padding-left: 300px;
+        }
+    
+
+        #postt{
+
+            padding-left: 350px;
+        }
+    
+}
+
+@media only screen and (max-width: 1195px) {
+#head ul{
+   
+    margin-left: 20px;
+ 
+
+
+}
+
+#head li{
+    display: inline;
+    margin-left: 10px;
+    cursor: pointer;;
+   
+
+}
+li #ik{
+    margin-left: 15px;
+}
+#log{
+    margin-left: 20px;
+
+
+  
+
+
+}
+#txt{
+
+   width:  70%;
+   margin-top: 50px;
+    }
+    #purch3{
+        
+        margin-left: 0px;
+    
+    }
+
+    #cate{
+margin-left: -100px;
+    }
+    .post01{
+       
+        margin-left: 10px;
+        width:300px;
+    }
+    #tw1fo{
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid #353535;
+        font-size: 14px;
+        margin-top: 0px;
+     }
+  
+     #tw1fo p{
+        color: #353535;
+        font-size: 12px;
+        margin-top: 0px ;
+  
+     }
+  
+     #tw2fo{
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid #353535;
+        font-size: 14px;
+        margin-top: 0px;
+     }
+  
+     #tw2fo p{
+        color: #353535;
+        font-size: 12px;
+        margin-top: 0px ;
+  
+     }
+  
+     #tw3fo{
+        float: left;
+        width: 100%;
+        
+        font-size: 14px;
+        margin-top: 0px;
+     }
+  
+     #tw3fo p{
+        color: #353535;
+        font-size: 12px;
+        margin-top: 0px ;
+  
+     }  #tw1fo{
+      float: left;
+      width: 100%;
+      border-bottom: 1px solid #353535;
+      font-size: 14px;
+      margin-top: 0px;
+   }
+
+   #tw1fo p{
+      color: #353535;
+      font-size: 12px;
+      margin-top: 0px ;
+
+   }
+
+   #tw2fo{
+      float: left;
+      width: 100%;
+      border-bottom: 1px solid #353535;
+      font-size: 14px;
+      margin-top: 0px;
+   }
+
+   #tw2fo p{
+      color: #353535;
+      font-size: 12px;
+      margin-top: 0px ;
+
+   }
+
+   #tw3fo{
+      float: left;
+      width: 100%;
+      
+      font-size: 14px;
+      margin-top: 0px;
+   }
+
+   #tw3fo p{
+      color: #353535;
+      font-size: 12px;
+      margin-top: 0px ;
+
+   }
+
+@media only screen and (max-width: 1004px) {
+
+
+    @media only screen and (max-width: 948px) {
+        .uv::after {
+          
+            margin-top: -150px;
+
+
+    }
+#txt p{
+   
+    margin-top: 0px;
+
+}
+#head ul{
+   
+    margin-left: 10px;
+ 
+
+
+}
+.sli_so1{
+
+    font-size: 36px;
+    margin-top: -350px;
+ }
+ #serv1{
+    
+    margin-left: 50px;
+ }
+ #purch1{
+   
+    width: 150px;
+
+    
+          }
+          .yu{
+margin-top: 20px;
+margin-right: 30px;
+margin-left: -35px;
+
+
+          }
+#head li{
+    
+    margin-left: 5px;
+   
+   
+
+}
+li #ik{
+    margin-left: 3px;
+}
+#log{
+    margin-left: 10px;
+
+
+  
+
+
+}
+.count_1{
+  
+    width: 20%;
+   
+ 
+ }
+ #count{
+    
+    padding-left: 100px;
+
+}
+.post01{
+    width:250px;
+    
+    
+    
+    
+    }
+    .tip img{
+        width: 200px;
+        
+             }
+        
+             .tipp img{
+                width: 200px;
+              
+                   }
+                   .tippp img{
+                    width: 200px;
+                    
+                         }
+                         .tipppp img{
+                            width: 200px;
+                          
+                               }
+    }
