@@ -185,7 +185,7 @@ margin-left: -100px;
 @media only screen and (max-width: 1004px) {
 
 
-    @media only screen and (max-width: 948px) {
+    @media only screen and (max-width: 1000px) {
         .uv::after {
           
             margin-top: -150px;
@@ -279,4 +279,668 @@ li #ik{
                             width: 200px;
                           
                                }
+                               .gh{
+                                float: left;
+                                width: 50%;
+                                padding-left: 0px;
+                                
+                                   }
+                                
+                                   #coop1{
+                                float: left;
+                                width: 50%;
+                                margin-right: -20px;
+                                
+                                
+                                
+                                   }
+                                
+                                   #coop4:after{
+                                      content: "";
+                                      background: silver;
+                                      width: 2px;
+                                      height: 13px;
+                                      float: left;
+                                      margin-right: 0px;
+                                margin-top: 43px;
+                                
+                                   }
+                                
+                                   
+                                   #coop2:after{
+                                      content: " ";
+                                      background: silver;
+                                      width: 2px;
+                                      height: 13px;
+                                      float: left;
+                                      margin-right: 0px;
+                                margin-top: 43px;
+                                
+                                   }
+                                
+                                   
+                                   #coop3:after{
+                                      content: " ";
+                                      background: silver;
+                                      width: 2px;
+                                      height: 13px;
+                                      float: left;
+                                      margin-right: 5px;
+                                margin-top: 43px;
+                                
+                                   }
+                                
+                                   
+                                   #coop6:after{
+                                      content: " ";
+                                      background: silver;
+                                      width: 2px;
+                                      height: 13px;
+                                      float: left;
+                                      margin-right: 15px;
+                                margin-top: 43px;
+                                
+                                   }
+                                
+                                   #coop2{
+                                      float: left;
+                                      width: 20%;
+                                      margin-left: 0px;
+                                 
+                                  
+                                         }
+                                
+                                         #coop3{
+                                            float: left;
+                                            width: 10%;
+                                            text-transform: uppercase;
+                                            color: #c7b299;
+                                               }   
+                                
+                                
+                                               #coop4{
+                                                  float: left;
+                                                  width: 15%;
+                                                  
+                                                     }
+                                                     
+                                                     #coop5{
+                                                        float: left;
+                                                        width: 40%;
+                                                        
+                                                           }
+                                                           #coop6{
+                                                              float: left;
+                                                              width: 40%;
+                                                              margin-left:-40px ;
+                                                                 }
+                          
+                             
+                                                                 #postt{
+                                                                    float: left;
+                                                                    width: 100%;
+                                                                    padding-left: 100px;
+                                                                    margin-top: 30px;
+                                                                    
+                                                                    
+                                                                    }    
+                                                                    #post1fo{
+                                                                        float: left;
+                                                                        width: 100%;
+                                                                        border-bottom: 1px solid #353535;
+                                                                        font-size: 10px;
+                                                                        margin-top: 10px;
+                                                                     }
+                                                                  
+                                                                     #post1fo p{
+                                                                        color: #353535;
+                                                                        font-size: 11px;
+                                                                        margin-top: 5px ;
+                                                                  
+                                                                     }
+                                                                  
+                                                                     #post2fo{
+                                                                        float: left;
+                                                                        width: 100%;
+                                                                        border-bottom: 1px solid #353535;
+                                                                        font-size: 10px;
+                                                                        margin-top: 10px;
+                                                                        color: #fff;
+                                                                     }
+                                                                  
+                                                                     #post2fo p{
+                                                                        color: #c7b299;
+                                                                        font-size: 11px;
+                                                                        margin-top: 5px ;
+                                                                  
+                                                                     }
+                                                                     #post3fo{
+                                                                        float: left;
+                                                                        width: 100%;
+                                                                      
+                                                                        font-size: 10px;
+                                                                        margin-top: 10px;
+                                                                     }
+                                                                  
+                                                                     #post3fo p{
+                                                                        color: #353535;
+                                                                        font-size: 11px;
+                                                                        margin-top: 5px ;
+                                                                  
+                                                                     }
+                                                                  
+                                                                  
+                                                                     #twfo{
+                                                                  color: #fff;
+                                                                  font-size: 18px;
+                                                                  float: left;
+                                                                  width: 100%;
+                                                                  
+                                                                     }
+                                                                  
+                                                                     #tw1fo{
+                                                                        float: left;
+                                                                        width: 100%;
+                                                                        border-bottom: 1px solid #353535;
+                                                                        font-size: 11px;
+                                                                        margin-top: 10px;
+                                                                     }
+                                                                  
+                                                                     #tw1fo p{
+                                                                        color: #353535;
+                                                                        font-size: 10px;
+                                                                        margin-top: 5px ;
+                                                                  
+                                                                     }
+                                                                  
+                                                                     #tw2fo{
+                                                                        float: left;
+                                                                        width: 100%;
+                                                                        border-bottom: 1px solid #353535;
+                                                                        font-size: 11px;
+                                                                        margin-top: 10px;
+                                                                     }
+                                                                  
+                                                                     #tw2fo p{
+                                                                        color: #353535;
+                                                                        font-size: 10px;
+                                                                        margin-top: 5px ;
+                                                                  
+                                                                     }
+                                                                  
+                                                                     #tw3fo{
+                                                                        float: left;
+                                                                        width: 100%;
+                                                                        
+                                                                        font-size: 11px;
+                                                                        margin-top: 10px;
+                                                                     }
+                                                                  
+                                                                     #tw3fo p{
+                                                                        color: #353535;
+                                                                        font-size: 10px;
+                                                                        margin-top: 5px ;
+                                                                  
+                                                                     }
+                                                                  
+                                                                     #wid{
+                                                                  float: left;
+                                                                  width: 100%;
+                                                                  font-size: 18px;
+                                                                  color: #fff;
+                                                                  margin-left: 0px;
+                                                                  
+                                                                     }
+                                                                  
+                                                                     .foim{
+                                                                        float: left;
+                                                                        width: 40%;
+                                                                        margin-left: 5px;
+                                                                        margin-top: 10px;
+                                                                     }
+                                                                     .foo_blo{
+                                                                       
+                                                                        width: 18%;
+                                                                     }
+                                                                     
+.xc{
+
+    float: left;
+    height: 30px;
+        width: 110px;
+        text-align: center;
+        line-height: 30px;
+      
+        border-radius: 2px;
+ 
+        margin-left: 250px;
+ }
+ .xcc{
+ 
+    float: left;
+    height: 30px;
+        width: 110px;
+        text-align: center;
+        line-height: 30px;
+        
+        border-radius: 2px;
+ 
+        margin-left: 20px;
+ }
+ .xccc{
+ 
+    float: left;
+    height: 30px;
+        width: 110px;
+        text-align: center;
+        line-height: 30px;
+       
+        border-radius: 2px;
+ 
+        margin-left: 20px;
+ }
+ .xcccc{
+ 
+    float: left;
+    height: 30px;
+        width: 110px;
+        text-align: center;
+        line-height: 30px;
+       
+        border-radius: 2px;
+ 
+        margin-left: 20px;
+ }
+ .xccccc{
+ 
+    float: left;
+    height: 30px;
+        width: 70px;
+        text-align: center;
+        line-height: 30px;
+        
+        border-radius: 2px;
+ 
+        margin-left: 20px;
+ }
+                                                                                                                                  
+    }
+
+
+    @media only screen and (max-width: 909px) {
+
+
+    }
+    #txt p{
+       
+        margin-top: 0px;
+    
+    }
+    #head ul{
+       
+        margin-left: 10px;
+     
+    
+    
+    }
+    .sli_so1{
+    
+        font-size: 36px;
+        margin-top: -350px;
+     }
+
+
+     #head li{
+    
+        margin-left: 5px;
+       
+       
+    
+    }
+    li #ik{
+        margin-left: 5px;
+    }
+    #log{
+        margin-left: 10px;
+    
+    
+      
+    
+    
+    }
+    .foo_blo{
+        float: left;
+        width: 22%;
+        margin-left: 20px;
+        margin-top: 50px ;
+        
+        
+           }
+
+    }
+
+    @media only screen and (max-width: 909px) {
+
+        #postt{
+            float: left;
+            width: 100%;
+            padding-left: 50px;
+            margin-top: 30px;
+            
+            
+            }
+            
+            .post01{
+            width:200px;
+            height: 400px;
+            background: #fff;
+            float: left;
+            margin-left: 10px;
+            cursor: pointer;
+            
+            
+            
+            }
+
+    }
+
+    @media only screen and (max-width: 840px) {
+
+        .sli_so1{
+
+            font-size: 36px;
+            margin-top: -200px;
+         }
+
+         #purch1{
+   
+            width: 130px;
+        
+            
+                  }
+
+                  .xc{
+
+                    float: left;
+                    height: 30px;
+                        width: 110px;
+                        text-align: center;
+                        line-height: 30px;
+                      
+                        border-radius: 2px;
+                 
+                        margin-left: 200px;
+                 }
+                 .xcc{
+                 
+                    float: left;
+                    height: 30px;
+                        width: 110px;
+                        text-align: center;
+                        line-height: 30px;
+                        
+                        border-radius: 2px;
+                 
+                        margin-left: 10px;
+                 }
+                 .xccc{
+                 
+                    float: left;
+                    height: 30px;
+                        width: 110px;
+                        text-align: center;
+                        line-height: 30px;
+                       
+                        border-radius: 2px;
+                 
+                        margin-left: 10px;
+                 }
+                 .xcccc{
+                 
+                    float: left;
+                    height: 30px;
+                        width: 110px;
+                        text-align: center;
+                        line-height: 30px;
+                       
+                        border-radius: 2px;
+                 
+                        margin-left: 10px;
+                 }
+                 .xccccc{
+                 
+                    float: left;
+                    height: 30px;
+                        width: 70px;
+                        text-align: center;
+                        line-height: 30px;
+                        
+                        border-radius: 2px;
+                 
+                        margin-left: 10px;
+                 }
+
+                 #coop1{
+                    float: left;
+                    width: 50%;
+                    margin-right: -20px;
+                    
+                    
+                    
+                       }
+                    
+                       #coop4:after{
+                          content: "";
+                          background: silver;
+                          width: 2px;
+                          height: 13px;
+                          float: left;
+                          margin-right: 0px;
+                    margin-top: 43px;
+                    
+                       }
+                    
+                       
+                       #coop2:after{
+                          content: " ";
+                          background: silver;
+                          width: 2px;
+                          height: 13px;
+                          float: left;
+                          margin-right: 0px;
+                    margin-top: 43px;
+                    
+                       }
+                    
+                       
+                       #coop3:after{
+                          content: " ";
+                          background: silver;
+                          width: 2px;
+                          height: 13px;
+                          float: left;
+                          margin-right: 0px;
+                    margin-top: 43px;
+                    
+                       }
+                    
+                       
+                       #coop6:after{
+                          content: " ";
+                          background: silver;
+                          width: 2px;
+                          height: 13px;
+                          float: left;
+                          margin-right: 0px;
+                    margin-top: 43px;
+                    
+                       }
+                    
+                       #coop2{
+                          float: left;
+                          width: 20%;
+                          margin-left: 0px;
+                     
+                      
+                             }
+                    
+                             #coop3{
+                                float: left;
+                                width: 10%;
+                                text-transform: uppercase;
+                                color: #c7b299;
+                                   }   
+                    
+                    
+                                   #coop4{
+                                      float: left;
+                                      width: 10%;
+                                      
+                                         }
+                                         
+                                         #coop5{
+                                            float: left;
+                                            width: 40%;
+                                            
+                                               }
+                                               #coop6{
+                                                  float: left;
+                                                  width: 40%;
+                                                  margin-left:-40px ;
+                                                     }
+              
+    }
+
+
+    @media only screen and (max-width: 802px) {
+      #txt{
+         float: left;
+         width: 50%;
+         margin-left: 50px;
+         margin-top: 20px;
+         
+         
+         }
+
+      .sli_so1{
+
+         font-size: 26px;
+         margin-top: -100px;
+      }
+      .sli_so2{
+      
+          font-size: 32px;
+       }
+
+       #purch1{
+         margin-left: 20px;
+         
+         
+               }
+
+               .xc{
+
+                  float: left;
+                  height: 30px;
+                      width: 110px;
+                      text-align: center;
+                      line-height: 30px;
+                    
+                      border-radius: 2px;
+               
+                      margin-left: 150px;
+               }
+               .xcc{
+               
+                  float: left;
+                  height: 30px;
+                      width: 110px;
+                      text-align: center;
+                      line-height: 30px;
+                      
+                      border-radius: 2px;
+               
+                      margin-left: 5px;
+               }
+               .xccc{
+               
+                  float: left;
+                  height: 30px;
+                      width: 110px;
+                      text-align: center;
+                      line-height: 30px;
+                     
+                      border-radius: 2px;
+               
+                      margin-left: 5px;
+               }
+               .xcccc{
+               
+                  float: left;
+                  height: 30px;
+                      width: 110px;
+                      text-align: center;
+                      line-height: 30px;
+                     
+                      border-radius: 2px;
+               
+                      margin-left: 5px;
+               }
+               .xccccc{
+               
+                  float: left;
+                  height: 30px;
+                      width: 70px;
+                      text-align: center;
+                      line-height: 30px;
+                      
+                      border-radius: 2px;
+               
+                      margin-left: 5px;
+               }
+
+               #vid{
+                  
+                  margin-top: 10px;
+                  
+                  
+                      }
+
+                      
+    #pla img{
+     
+      margin-top: 50px;
+      
+      
+          }
+
+          #mob{
+            float: left;
+            width: 20%;
+            margin-left: 0px;
+            
+            
+               }
+               #extex{
+                  float: left;
+                  width: 50%;
+                  margin-left: 200px;
+                  
+                     }
+      #coop2{
+
+         display: none;
+      }
+
+      #coop5{
+         float: left;
+         width: 50%;
+         
+            }
+            #coop6{
+               float: left;
+               width: 50%;
+               margin-left:0px ;
+                  }
+
     }
