@@ -944,3 +944,46 @@ li #ik{
                   }
 
     }
+
+    @media only screen and (max-width: 700px) {
+
+      #head ul{
+       
+         margin-left: 0px;
+        
+     
+     }
+     #log{
+    
+      margin-left: 0px;
+         
+      }
+      #head li{
+      
+         margin-left: 0px;
+        
+        
+     
+     }
+     li #ik{
+         margin-left: 0px;
+     }
+
+     .sli_so1{
+      
+      font-size: 20px;
+      margin-top: -100px;
+     
+   }
+   .sli_so2{
+   
+       font-size: 35px;
+    }
+
+
+
+.sli_so4{
+   margin-top: 0px;
+}
+
+    }
