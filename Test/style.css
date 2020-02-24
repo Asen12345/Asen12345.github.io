@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+header{
+    width:100%;
+    height:100px;
+    display:flex;
+    padding-top: 10px;
+  
+}
+
+#konn{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    margin-top: 150px;
+    
+}
+#logo{
+    flex:1;
+   
+}
+
+#head_content{
+    flex:1;
+    text-align: right;
+   
+}
+
+#head_content ul li{
+   margin-top: 5px;
+   
+}
+.container{
+    margin:0 auto ;
+    width: 90%;
+   
+}
+header .container{
+    display:flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#ban{
+
+    width: 100%;
+   margin-top:-150px ;
+    padding-top: 150px;
+
+    height: 700px;
+    text-align: center;
+    background: url(fale.png);
+    background-position: right;
+    background-repeat: no-repeat;  
+ 
+   
+
+}
+#ban .container .pink{
+    color:#C71585;
+    font-weight: bold;
+    
+  
+
+}
+#ban .container h1{
+    font-weight: normal;
+    font-size: 35px;
+    flex: 100%;  
+   
+    
+  
+
+}
+
+#ban .container .bol{
+    font-weight: bold;
+    
+  
+
+
+}
+#ban .container p{
+  font-size: 22px;
+  margin-top: 50px;
+  text-align: left;
+ 
+    
+  
+
+    
+}
+
+
+
+
+
+
+#per{
+ margin-top: 50px;
+width: 70%;
+}
+
+#pol_kon{
+    width: 300px;
+    height: 50px;
+    background-color: #C71585;
+   margin:0 auto;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 4px 3px 0 black;
+}
+
+
+#spis{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#ma{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+#spis ul{
+text-align: center;
+margin-top: 50px;
+}
+#spis ul li{
+    margin-top: 15px;
+    }
+    
+    #spis ul li i{
+     margin-right: 10px;
+        }
+
+        #spis2 p{
+            text-transform: uppercase;
+            text-align: left;
+            font-weight: bold;
+            font-size: 30px;
+            padding-right: 200px;
+           
+        }
+
+        #spis2{
+            width: 90%;
+            margin-top: 100px;
+           margin-left: auto;
+           margin-right: auto;
+         
+        }
+
+        #spis2 div{
+            width: 40%;
+            margin-top: 20px;
+            text-align: left;
+            font-size: 20px;
+            color: silver;
+        
+        } 
+        
+        #spis2 ul{
+            color:black;
+        }
+        #spis2 ul i{
+          color:#C71585;
+          margin-right: 15px;
+        }
+
+        #spis2 ul li{
+           margin-top: 15px;
+          }
+
+        #spis .container{
+            display:flex;
+            margin:0 auto ;
+            width: 90%;
+        }
+
+
+        #spis div{
+            flex:1;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+            margin-top: 50px;
+            
+        }
+        #spis div i{
+           color: silver;
+           font-size: 40px;
+        
+        }
+        #spis div p{
+            
+            font-size: 20px;
+            margin-top: 10px;
+         
+         }
+
+
+         #bol_ban{
+             width: 100%;
+             margin-top: 100px;
+        text-align: center;
+         }
+
+
+         #kon{
+             width:70% ;
+            background-color: #CD5C5C;
+            height: 50px;
+            color:#fff;
+            text-align: center;
+            line-height: 50px;
+            margin:0 auto;
+            text-transform: uppercase;
+         }
