@@ -21,8 +21,8 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <div id="head_content">
 
     <ul>
-        <li>Номер телефона</li>
-        <li>Заказать обратный звонок</li>
+        <li id="nome"><i class="fas fa-phone"></i>+7800000000</li>
+        <li id="zakzv">Заказать обратный звонок</li>
     </ul>
 </div>
 </div>
@@ -507,12 +507,15 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <div id="sl">
 <div class="slider">
 
-    <div><img src="kar.jpg" alt=""></div>
-    <div><img src="kar.jpg" alt=""></div>
-    <div><img src="kar.jpg" alt=""></div>
-    <div><img src="kar.jpg" alt=""></div>
-    <div><img src="kar.jpg" alt=""></div>
-    <div><img src="kar.jpg" alt=""></div>
+    <div class="vb"><img src="kar.jpg" alt=""></div>
+    <div class="vb"><img src="kar.jpg" alt=""></div>
+    <div class="vb"><img src="kar.jpg" alt=""></div>
+    <div class="vb"><img src="kar.jpg" alt=""></div>
+    <div class="vb"><img src="kar.jpg" alt=""></div>
+    <div class="vb"><img src="kar.jpg" alt=""></div>
+</div>
+<div class="arrow">
+
 </div>
 </div>
 <div id="vop">
@@ -526,7 +529,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 </ul>
 </div>
 <footer>
-    
+
 </footer>
 <script src="slick/slick.min.js"></script>
 <script>
@@ -536,13 +539,15 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
     $('.slider').slick({
      infinite: true,
      dots: true,
-      
+     arrows: true,
       slidesToShow: 4,
+     
+ 
       //количество слайдов, которые выводятся на экране
-     // slidesToScroll: 1,
+      slidesToScroll: 1,
       //количество слайдов, которые перелистываются за один раз  
-   // prevArrow: '<button class="ar"> <i class="fas fa-chevron-left"></i></button>',
-   // nextArrow: '<button class="arr"> <i class="fas fa-chevron-right"></i></button>'
+     // prevArrow: "<img src='jh.png' class='prev' alt='1'>",
+    //nextArrow: "<button type='button'><img src='hj.png' class='next' alt='2'></button>",
     
     
     
