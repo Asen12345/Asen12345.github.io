@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href=slick/slick.css rel=stylesheet type=text/css>
+<link href=slick/slick-theme.css rel=stylesheet type=text/css>
     <link href=style.css rel=stylesheet type=text/css>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -8,6 +10,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href=media-queries.css rel=stylesheet type=text/css>
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -487,5 +490,67 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
     </form>
 </div>
+<div id="kom">
+<div id="kom_kar">
+<img src="kar.jpg" alt="">
+
+</div>
+<div id="tex_kom">
+    «HR-специалист - это человек,
+    который помогает развитию компании,
+    работая с самым главным её капиталом,
+    с людьми. С хорошим HR-специалистом
+    "человеческий фактор" начинает работать на вас,
+    а не против вас».
+</div>
+</div>
+<div id="sl">
+<div class="slider">
+
+    <div><img src="kar.jpg" alt=""></div>
+    <div><img src="kar.jpg" alt=""></div>
+    <div><img src="kar.jpg" alt=""></div>
+    <div><img src="kar.jpg" alt=""></div>
+    <div><img src="kar.jpg" alt=""></div>
+    <div><img src="kar.jpg" alt=""></div>
+</div>
+</div>
+<div id="vop">
+<p>
+    ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ
+</p>
+<ul>
+    <li><i class="fas fa-arrow-right"></i> Какие методики я применяю для подбора</li>
+    <li><i class="fas fa-arrow-right"></i>Как я оцениваю менеджеров по продажам</li>
+    <li><i class="fas fa-arrow-right"></i>Как я оцениваю узкопрофильного специалиста?</li>
+</ul>
+</div>
+<footer>
+    
+</footer>
+<script src="slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+    
+  
+    $('.slider').slick({
+     infinite: true,
+     dots: true,
+      
+      slidesToShow: 4,
+      //количество слайдов, которые выводятся на экране
+     // slidesToScroll: 1,
+      //количество слайдов, которые перелистываются за один раз  
+   // prevArrow: '<button class="ar"> <i class="fas fa-chevron-left"></i></button>',
+   // nextArrow: '<button class="arr"> <i class="fas fa-chevron-right"></i></button>'
+    
+    
+    
+    }
+    
+    );
+  
+    });
+    </script>
 </body>
 </html>
