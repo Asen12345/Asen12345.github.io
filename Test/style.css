@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i&display=swap');
 *{
     margin:0px;
     padding: 0px;
@@ -55,17 +55,23 @@ margin-left: auto;
 
 #zakzv{
     color:#CD5C5C;
-    margin-bottom: 10px;
+    position: relative;
+    
+    
+
+    
   
     
 }
-#zakzv::after{
+#zakzv:before{
     content: "";
     background-color:#CD5C5C;
     height: 1px;
     width: 90%;
-  margin-top: 5px;
-    display: inline-block;
+ display: inline-block;
+ position: absolute;
+margin-top: 20px;
+
     
    
    
@@ -87,7 +93,7 @@ ul{
 #ban{
 
     width: 95%;
-   margin-top:-250px ;
+   margin-top:-260px ;
     padding-top: 150px;
 margin-left: auto;
 margin-right: auto;
@@ -101,7 +107,7 @@ margin-right: auto;
 
 }
 #ban .container .pink{
-    color:silver;
+    color:#CD5C5C;
     font-weight: bold;
     
   
@@ -143,7 +149,7 @@ margin-right: auto;
 
 
 #per{
- margin-top: 50px;
+ margin-top: 100px;
 width: 70%;
 }
 
@@ -166,6 +172,8 @@ width: 70%;
     padding-top: 30px;
     padding-bottom: 30px;
     box-shadow: 0px 8px 15px 0px black;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -179,6 +187,13 @@ width: 70%;
     color:#fff;
 }
 
+#ma::after{
+    content:"";
+    height: 1px;
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+}
 
 
 #spis ul{
@@ -255,7 +270,7 @@ margin-top: 50px;
         }
         #spis div p{
             
-            font-size: 20px;
+            font-size: 18px;
             margin-top: 10px;
             color: white;
          
@@ -384,6 +399,8 @@ font-weight: bold;
             padding-left: 20px;
             border:0px;
             border-bottom: 1px solid black;
+            background-color: #fff;
+            color: black;
             
             
         }
@@ -396,6 +413,7 @@ font-weight: bold;
             margin-top: 30px;
             border:0px;
             border-bottom: 1px solid black;
+            
         }
 
         #spe_sfe{
@@ -494,7 +512,7 @@ color: #cd5c5c;
             width: 100%;
             text-transform: uppercase;
            margin-top: 50px;
-            font-weight: bold;
+           color:#475259;
             font-size: 30px;
         }
 
@@ -509,7 +527,7 @@ color: #cd5c5c;
   .block{
 flex:1;
 height: auto;
-background-color: silver;
+
 margin-left:1% ;
 margin-right:1% ;
 border-radius: 2px;
@@ -521,6 +539,7 @@ padding-right: 10px;
             text-align: center;
             margin-top: 20px;
             font-size: 25px;
+            font-weight: bold;
         }
 
         .tit p{
@@ -537,10 +556,18 @@ padding-right: 10px;
         }
         .block ul li{
           margin-top:  10px;
+          color:#475259;
         }
 
+        .block ul li::before{
+            content: "*";
+            color:#cd5c5c ;
+            margin-right: 5px;
+        }
 
-
+        .block ul{
+            list-style-type: none;
+        }
         .block p{
             margin-top: 20px;
 
@@ -550,15 +577,19 @@ padding-right: 10px;
         width: 150px;
         margin-left: auto;
         margin-right: auto;
-        background-color: #fff;
+        background-color: #cd5c5c;
         height: 50px;
         text-align: center;
         line-height: 50px;
         border-radius:5px ;
-        
+        color: #fff;
         margin-bottom: 20px;
         
         }
+        .price{
+            color: #cd5c5c;
+            font-weight: bold;
+                }
 
         #matabl{
             display: flex;
@@ -602,11 +633,15 @@ padding-right: 10px;
            flex: 1;
             height: 50px;
             padding-left: 20px;
-            
+            border:0px;
+            border-bottom: 1px solid black;
+            background-color: #fff;
+            color: black;
         }
 
         #for3 form textarea{
-          
+            border:0px;
+            border-bottom: 1px solid black;
             width: 100%;
             height: 70px;
             padding-left: 20px;
@@ -617,6 +652,10 @@ padding-right: 10px;
         #obomne{
             width: 100%;
             margin-top: 50px;
+            background-color: #30373d;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            box-shadow: 0px 8px 15px 0px black;
         }
         #obomne p{
 
@@ -624,7 +663,7 @@ text-align: center;
 width: 100%;
 text-transform: uppercase;
 margin-top: 50px;
-font-weight: bold;
+color: #fff;
 font-size: 30px;
 
         }
@@ -637,10 +676,14 @@ margin-right: 10%;
 
         }
         #obomne ul  li{
-            margin-top: 10px;
+            margin-top: 15px;
+            color: #9fa6ac;
         }
         #obomne ul  li:before {
-            content: "- "; /* Добавляем в качестве маркера символ */
+            content: "- "; 
+            color:#cd5c5c ;
+            font-size: 25px;
+            /* Добавляем в качестве маркера символ */
            
            }
 
@@ -663,9 +706,14 @@ margin-right: 10%;
            }
            .edbl2 div{
                text-align: center;
+               color:#CD5C5C ;
            }
            .edbl2 div span{ 
-           color:#CD5C5C;
+               margin-left: 10px;
+               padding: 10px;
+               text-align: center;
+           color:#fff;
+           background-color:#CD5C5C ;
         }
 
         #usl_rab{
@@ -679,7 +727,7 @@ margin-right: 10%;
 width: 100%;
 text-transform: uppercase;
 margin-top: 50px;
-font-weight: bold;
+color:#475259;
 font-size: 30px;
         }
 
@@ -691,8 +739,15 @@ font-size: 30px;
         }
         #usl_rab ul li{
             margin-top: 10px;
+
+            
         }
 
+        #usl_rab ul li:before{
+            content: "- ";
+            color:#CD5C5C ;
+            font-size: 25px;
+        }
 
         #usl_rab div{
 margin-top: 30px;
@@ -705,7 +760,7 @@ font-weight: bold;
 
         #usl_rab div p{
             font-weight: normal;
-            font-family: cursive;
+           font-family: 'Open Sans';
             text-align: right;
             margin-top: 10px;
 
@@ -733,11 +788,16 @@ font-weight: bold;
            flex: 1;
             height: 50px;
             padding-left: 20px;
+            border: 0px;
+            border-bottom: 1px solid black;
+            background-color: #fff;
+            color: black;
             
         }
 
         #for4 form textarea{
-          
+            border: 0px;
+            border-bottom: 1px solid black;
             width: 100%;
             height: 70px;
             padding-left: 20px;
@@ -770,17 +830,21 @@ font-weight: bold;
             padding-left: 10%;
             padding-right: 10%;
             margin-top: 60px;
+            margin-bottom: 30px;
+           
         }
 
 
         #osob2{
 text-align: center;
 font-size: 25px;
+color:#475259;
 
         }
             
         #ushr{
             text-align: center;
+            color:#475259;
         }
 
         #ushr p{
@@ -795,6 +859,7 @@ margin-bottom: 10px;
             margin-top: 50px;
             width: 100%;
             display: flex;
+            
         }
 
 
@@ -810,6 +875,7 @@ height: auto;
             text-transform: uppercase;
             font-size: 22px;
             text-align: center;
+            font-weight: bold;
         }
 
         .pl_mi3{
@@ -817,6 +883,7 @@ height: auto;
             margin-left: 1%;
             margin-right: 1%;
             height: auto;
+         
            
                     }
             
@@ -824,20 +891,26 @@ height: auto;
                         text-transform: uppercase;
                         font-size: 22px;
                         text-align: center;
+                        font-weight: bold;
                     }
 
                     .pl_mi3 ul{
                         text-align: center;
                         margin-top: 25px;
+                        color: #9fa6ac;
+                        font-size: 20px;
                     }
                     .pl_mi3 ul li{
                         margin-top:15px ;
+                      
                       
 
                     }
                     .pl_mi2 ul{
                         text-align: center;
                         margin-top: 25px;
+                        color: #9fa6ac;
+                        font-size: 19px;
                     }
                     .pl_mi2 ul li{
                         margin-top:15px ;
@@ -863,8 +936,10 @@ height: auto;
                     #sthr{
                         padding-left: 10%;
                         padding-right: 10%;
-                        margin-top: 40px;
+                    padding-top: 40px;
                         font-weight: bold;
+                        color: #fff;
+                        background-color: #30373d;
                     }
 
                     #sthr p{
@@ -879,10 +954,13 @@ font-weight: normal;
                     }
                     #sthr ul li{
                         margin-top: 15px;
+                        color:#9fa6ac;
                     }
                     #sthr ul li:before{
-                      content:"-";
+                      content:"- ";
                       margin-right: 10px;
+                      color: #CD5C5C;
+                      font-size: 25px;
 
 
 
@@ -895,7 +973,8 @@ font-weight: normal;
 
                                                padding-right: 10%;
                                                padding-left: 10%;
-                                               margin-top: 50px;
+                                               padding-top: 50px;
+                                               background-color: #30373d;
                                             }       
                                             
                                             
@@ -912,13 +991,17 @@ font-weight: normal;
 
  #uz_bol p{
      margin-top: 15px;
-     font-family:cursive ;
+     font-family: 'Open Sans';
+     color: #fff;
  }
 
 
  #for5{
-    margin-top: 50px;
+    padding-top: 50px;
     width: 100%;
+    background-color: #30373d;
+    padding-bottom: 30px;
+    box-shadow: 0px 8px 15px 0px black;
 
 }
 
@@ -937,15 +1020,23 @@ form .tr{
    flex: 1;
     height: 50px;
     padding-left: 20px;
+    background-color: #30373d;
+    border: 0px;
+  border-bottom:1px solid #fff;
+  color: #fff;
     
 }
 
 #for5 form textarea{
-  
+    color: #fff;
     width: 100%;
     height: 70px;
     padding-left: 20px;
     margin-top: 30px;
+    background-color: #30373d;
+    border: 0px;
+    border-bottom:1px solid #fff;
+   
 }
 
 
