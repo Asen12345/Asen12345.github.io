@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
 *{
     margin:0px;
     padding: 0px;
@@ -33,6 +34,7 @@ header{
 
 #head_content ul li{
    margin-top: 5px;
+   color: silver;
    
 }
 .container{
@@ -64,7 +66,7 @@ ul{
 
 }
 #ban .container .pink{
-    color:#C71585;
+    color:silver;
     font-weight: bold;
     
   
@@ -74,6 +76,8 @@ ul{
     font-weight: normal;
     font-size: 35px;
     flex: 100%;  
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', ;
    
     
   
@@ -111,7 +115,7 @@ width: 70%;
 #pol_kon{
     width: 300px;
     height: 50px;
-    background-color: #C71585;
+    background-color:#CD5C5C;
    margin:0 auto;
     color: #fff;
     text-align: center;
@@ -145,6 +149,7 @@ margin-top: 50px;
     
     #spis ul li i{
      margin-right: 0px;
+     
         }
 
         #am{
@@ -201,7 +206,7 @@ margin-top: 50px;
             
         }
         #spis div i{
-           color:#C71585;
+           color:silver;
            font-size: 40px;
         
         }
@@ -313,7 +318,7 @@ font-weight: bold;
             flex-wrap: wrap;
         }
 
-        #for form input{
+        #for form .tr{
             margin-left: 1%;
             margin-right: 1%;
            flex: 1;
@@ -330,7 +335,9 @@ font-weight: bold;
             margin-top: 30px;
         }
 
-
+        #spe_sfe{
+            margin-top:30px ;
+        }
         #maspe{
             text-align: center;
             width: 100%;
@@ -388,7 +395,7 @@ color: black;
             flex-wrap: wrap;
         }
 
-        #for2 form input{
+        #for2 form .tr{
             margin-left: 1%;
             margin-right: 1%;
            flex: 1;
@@ -495,3 +502,388 @@ padding-right: 10px;
         .tabl p{
             font-size: 20px;
         }
+
+        
+        #for3{
+            margin-top: 50px;
+            width: 100%;
+
+        }
+
+
+
+        #for3 form{
+            margin:0 auto;
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #for3 form .tr{
+            margin-left: 1%;
+            margin-right: 1%;
+           flex: 1;
+            height: 50px;
+            padding-left: 20px;
+            
+        }
+
+        #for3 form textarea{
+          
+            width: 100%;
+            height: 70px;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+
+
+        #obomne{
+            width: 100%;
+            margin-top: 50px;
+        }
+        #obomne p{
+
+text-align: center;
+width: 100%;
+text-transform: uppercase;
+margin-top: 50px;
+font-weight: bold;
+font-size: 30px;
+
+        }
+
+        #obomne ul{
+margin-top: 30px;
+margin-left: 10%;
+margin-right: 10%;
+
+
+        }
+        #obomne ul  li{
+            margin-top: 10px;
+        }
+        #obomne ul  li:before {
+            content: "- "; /* Добавляем в качестве маркера символ */
+           
+           }
+
+
+
+           #edbl{
+               margin-top: 60px;
+               padding-left: 10%;
+               padding-right: 10%;
+               display: flex;
+           }
+
+           .edbl2{
+               flex:1;
+           
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               
+           }
+           .edbl2 div{
+               text-align: center;
+           }
+           .edbl2 div span{ 
+           color:#CD5C5C;
+        }
+
+        #usl_rab{
+            width: 100%;
+            margin-top: 50px;
+        }
+
+
+        #maus{
+            text-align: center;
+width: 100%;
+text-transform: uppercase;
+margin-top: 50px;
+font-weight: bold;
+font-size: 30px;
+        }
+
+
+        #usl_rab ul{
+            padding-left: 10%;
+            padding-right: 10%;
+        
+        }
+        #usl_rab ul li{
+            margin-top: 10px;
+        }
+
+
+        #usl_rab div{
+margin-top: 30px;
+padding-left: 10%;
+padding-right: 10%;
+font-weight: bold;
+
+        }
+
+
+        #usl_rab div p{
+            font-weight: normal;
+            font-family: cursive;
+            text-align: right;
+            margin-top: 10px;
+
+        }
+
+
+        #for4{
+            margin-top: 50px;
+            width: 100%;
+
+        }
+
+
+
+        #for4 form{
+            margin:0 auto;
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #for4 form .tr{
+            margin-left: 1%;
+            margin-right: 1%;
+           flex: 1;
+            height: 50px;
+            padding-left: 20px;
+            
+        }
+
+        #for4 form textarea{
+          
+            width: 100%;
+            height: 70px;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+
+
+
+        #naso{
+            width: 100%;
+            margin-top: 30px;
+            text-transform: uppercase;
+           
+        }
+
+        #naso p{
+            width: 30%;
+            background-color: #CD5C5C;
+            color: #fff;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            margin: 0 auto;
+
+
+        }
+
+
+        #osob{
+            padding-left: 10%;
+            padding-right: 10%;
+            margin-top: 60px;
+        }
+
+
+        #osob2{
+text-align: center;
+font-size: 25px;
+
+        }
+            
+        #ushr{
+            text-align: center;
+        }
+
+        #ushr p{
+font-weight: bold;
+font-size: 22px;
+margin-top: 10px;
+margin-bottom: 10px;
+        }
+
+
+        #pl_mi{
+            margin-top: 50px;
+            width: 100%;
+            display: flex;
+        }
+
+
+        .pl_mi2{
+flex: 1;
+margin-left: 1%;
+margin-right: 1%;
+height: auto;
+
+        }
+
+        .pl_mi2 p{
+            text-transform: uppercase;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .pl_mi3{
+            flex: 1;
+            margin-left: 1%;
+            margin-right: 1%;
+            height: auto;
+           
+                    }
+            
+                    .pl_mi3 p{
+                        text-transform: uppercase;
+                        font-size: 22px;
+                        text-align: center;
+                    }
+
+                    .pl_mi3 ul{
+                        text-align: center;
+                        margin-top: 25px;
+                    }
+                    .pl_mi3 ul li{
+                        margin-top:15px ;
+                      
+
+                    }
+                    .pl_mi2 ul{
+                        text-align: center;
+                        margin-top: 25px;
+                    }
+                    .pl_mi2 ul li{
+                        margin-top:15px ;
+
+                    }
+
+                    .pl_mi2 ul li:before {
+                        content: "—";
+                        color: red;
+                        font-size: 35px;
+                        margin-right: 10px;
+                       }
+                       .pl_mi3 ul li:before{
+                        content: "+";
+                        color: green;
+                        font-size: 35px;
+                        margin-right: 10px;
+                    
+
+                    }
+
+
+                    #sthr{
+                        padding-left: 10%;
+                        padding-right: 10%;
+                        margin-top: 40px;
+                        font-weight: bold;
+                    }
+
+                    #sthr p{
+                        margin-top: 20px;
+                        font-weight: normal;
+                    }
+
+
+                    #sthr ul{
+margin-top: 20px;
+font-weight: normal;
+                    }
+                    #sthr ul li{
+                        margin-top: 15px;
+                    }
+                    #sthr ul li:before{
+                      content:"-";
+                      margin-right: 10px;
+
+
+
+
+                                            }
+
+
+
+                                            #uz_bol{
+
+                                               padding-right: 10%;
+                                               padding-left: 10%;
+                                               margin-top: 50px;
+                                            }       
+                                            
+                                            
+ #uz_bol div{
+     margin:0 auto;
+     width: 40%;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #CD5C5C;
+     color:#fff;
+ }                                           
+
+ #uz_bol p{
+     margin-top: 15px;
+     font-family:cursive ;
+ }
+
+
+ #for5{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+
+
+#for5 form{
+    margin:0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form .tr{
+    margin-left: 1%;
+    margin-right: 1%;
+   flex: 1;
+    height: 50px;
+    padding-left: 20px;
+    
+}
+
+#for5 form textarea{
+  
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+
+.subb{
+    width: 300px;
+    margin-top: 20px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#CD5C5C ;
+    cursor: pointer;
+
+}
+
