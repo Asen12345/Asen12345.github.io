@@ -41,10 +41,11 @@ margin-left: auto;
 }
 
 #nome{
-    color:#CD5C5C;
+    color:silver;
 }
 
 #nome i{
+    color:#CD5C5C;
     border: 1px solid #CD5C5C;
     border-radius: 50%;
     padding: 5px;
@@ -85,11 +86,12 @@ ul{
 
 #ban{
 
-    width: 100%;
+    width: 95%;
    margin-top:-250px ;
     padding-top: 150px;
-
-    height: 700px;
+margin-left: auto;
+margin-right: auto;
+    height: 650px;
     text-align: center;
     background: url(fale.png);
     background-position: right;
@@ -196,7 +198,7 @@ margin-top: 50px;
         #am{
             text-transform: uppercase;
             text-align: left;
-          
+          color: #475259;
             font-size: 30px;
             padding-right: 200px;
            
@@ -223,7 +225,7 @@ margin-top: 50px;
             color:black;
         }
         #spis2 ul i{
-          color:yellow;
+          color:#cd5c5c;
           margin-right: 15px;
         }
 
@@ -247,7 +249,7 @@ margin-top: 50px;
             
         }
         #spis div i{
-           color:yellow;
+           color:#cd5c5c;
            font-size: 40px;
         
         }
@@ -269,13 +271,14 @@ margin-top: 50px;
 
          #kon{
              width:70% ;
-            background-color: yellow;
+            background-color: #cd5c5c;
             height: 50px;
             columns: #000000;;
             text-align: center;
             line-height: 50px;
             margin:0 auto;
             text-transform: uppercase;
+            color: white;
          }
 
 
@@ -297,7 +300,7 @@ margin-top: 50px;
          }
          #topf p span{
 text-transform: uppercase;
-color:yellow;
+color:#cd5c5c;
 font-weight: bold;
          }
 
@@ -313,23 +316,24 @@ font-weight: bold;
         #topf ul li i{
             
            margin-right: 10px;
-           color:yellow;
+           color:#cd5c5c;
         }
 
-
-        #vop p{
+        #ty{
             text-align: center;
             width: 100%;
             text-transform: uppercase;
            margin-top: 50px;
-            font-weight: bold;
+            font-weight: normal;
             font-size: 30px;
+            color:#475259;
            
         }
 
         #vop ul{
             margin-left: 10%;
             margin-top: 50px;
+            margin-right: 10%;
         }
 
         #vop ul li{
@@ -338,10 +342,13 @@ font-weight: bold;
 
         #vop ul li i{
             margin-right: 5px;
-            font-size: 20px;
-            color:#C71585;
+            font-size: 25px;
+            color:#cd5c5c;
         }
 
+        #vop ul li .fas{
+            color:#cd5c5c;
+        }
         #for{
             margin-top: 50px;
             width: 100%;
@@ -353,7 +360,7 @@ font-weight: bold;
             width: 100%;
             text-transform: uppercase;
            margin-top: 50px;
-            font-weight: bold;
+           color:#475259;
             font-size: 30px;
             margin-bottom: 50px;
         }
@@ -378,6 +385,7 @@ font-weight: bold;
             border:0px;
             border-bottom: 1px solid black;
             
+            
         }
 
         #for form textarea{
@@ -386,17 +394,22 @@ font-weight: bold;
             height: 70px;
             padding-left: 20px;
             margin-top: 30px;
+            border:0px;
+            border-bottom: 1px solid black;
         }
 
         #spe_sfe{
             margin-top:30px ;
+            background-color:#30373d ;
+            padding-top: 30px;
+            padding-bottom: 30px;
         }
         #maspe{
             text-align: center;
             width: 100%;
             text-transform: uppercase;
            margin-top: 50px;
-            font-weight: bold;
+            color: white;
             font-size: 30px;
           
         }
@@ -408,7 +421,7 @@ font-weight: bold;
         #spe_sfe ul li{
           
             margin-top: 15px;
-            color:#00FA9A;
+            color:#cd5c5c;
 
         }
         #spe_sfe ul li span{
@@ -417,7 +430,7 @@ font-weight: bold;
             border-bottom: 1px dashed #000;
         }
         #spe_sfe ul li span:hover{
-            color: #00FA9A;
+            color: #cd5c5c;
             transition:all 0.7s ease;
         }
 
@@ -430,12 +443,15 @@ font-weight: bold;
         }
         #dis span{
 font-weight: bold;
-color: black;
+color: #cd5c5c;
         }
 
         #for2{
-            margin-top: 50px;
-            width: 100%;
+           width: 100%;
+            background-color:#30373d;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            box-shadow: 0px 8px 15px 0px black;
 
         }
 
@@ -454,11 +470,19 @@ color: black;
            flex: 1;
             height: 50px;
             padding-left: 20px;
+            background-color: #30373d;
+            color: white;
+            border: 0px;
+            border-bottom: 1px solid #fff;
             
         }
 
         #for2 form textarea{
-          
+           
+            border: 0px;
+            border-bottom: 1px solid #fff;
+            background-color: #30373d;
+            color: white;
             width: 100%;
             height: 70px;
             padding-left: 20px;
@@ -550,7 +574,7 @@ padding-right: 10px;
         .tabl i{
             margin-bottom: 20px;
            font-size: 30px;
-           color:yellow;
+           color:#cd5c5c;
         }
         .tabl p{
             font-size: 20px;
@@ -937,6 +961,7 @@ form .tr{
     margin-right: auto;
     background-color:#CD5C5C ;
     cursor: pointer;
+    border: 0px;
 
 }
 
