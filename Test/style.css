@@ -621,6 +621,7 @@ padding-right: 10px;
         .pretit{
             font-size: 25px;
             color: #555454;
+            margin-top: 10px;
         }
         .pretit:after{
             content: "";
