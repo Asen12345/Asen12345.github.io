@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div style="height:100%;" class="row">
+    <span class="open">
+        <i class="fas fa-bars"></i>
+    </span>
+    <div class="col-2 menu_del">
+
+    </div>
+    <div style="padding: 10px 0px 10px 10px; position: fixed;" class="col-lg-2 col-12 menu">
+<p class="log">
+    <img src="img/logo.svg" alt="">
+</p>
+<div class="contact">
+
+    Кузнецова Елена Петровна
+
+    <p>
+      <span> simplemail@gmail.com</span> 
+      <span>+7 (923) 321 32-32</span>  
+    </p>
+</div>
+<ul class="main_menu">
+    <li class="elem active"><img src="img/menu.svg" alt="">Главное меню</li>
+    <li class="elem"><img src="img/partner.svg" alt="">Партнерская прогрмма</li>
+    <li class="elem"><img src="img/money.svg" alt="">Финансы</li>
+</ul>
+    </div>
+
+ <div class="col-lg-10 col-12 content">
+     <div class="info">
+<div class="row">
+
+<div class="col-sm-4 col-12 elem_info">
+<div class="info_content">
+    <div class="info_tex">
+        Мой депозит
+        <p>
+            $ 0, 0000    
+        </p>
+    </div>
+    <div class="info_img">
+        <img src="img/purse.svg" alt="">
+       
+    </div>
+
+</div>
+</div>
+<div class="col-sm-4 col-12 elem_info">
+    <div class="info_content">
+        <div class="info_tex">
+            Дата вложения инвестиций
+            <p>
+                149 д.  
+            </p>
+        </div>
+        <div class="info_img">
+            <img src="img/calendar.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="col-sm-4 col-12 elem_info">
+    <div class="info_content">
+        <div class="info_tex">
+            Дата получения процентов прибыли
+            <p>
+                13.04.2020  
+            </p>
+        </div>
+        <div class="info_img">
+            <img src="img/money_info.png" alt="">
+        </div>
+    </div>
+</div>
+
+</div>
+
+     </div>
+        
+
+<div class="titl">
+    Добро пожаловать в личный кабинет <span>ALT Capital.</span>
+
+Заставь деньги работать.
+
+
+<p>Посчитайте прибыль, которую вы можете получать.</p>
+</div>
+
+
+
+<div class="calcul">
+
+
+
+        
+                           
+                                
+                                <div style="position: relative;" class="progress-bar-2">
+                                   <div class="badge-2"><span>
+32132
+                                   </span></div>
+                                   <input type="range" min="0" max="100" value="30" class="slider-2" id="myRange">
+                                </div>
+                                
+
+
+
+
+<p class="titl_add">
+    6% - доходность:
+</p>
+
+<div class="row">
+
+<div class="col-sm-5 col-12 doh_inf">
+
+    При ежемесячно выводе прибыли
+
+<p>
+    650 000 ₽
+</p>
+</div>
+<div class="col-2">
+</div>
+<div class="col-sm-5 col-12 doh_inf">
+
+    При капитализации прибыли
+    <p>
+        900 000 ₽
+    </p>
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+    </div>
+</div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>  
+    <script src="https://yastatic.net/jquery/2.1.3/jquery.min.js"> </script>
+
+
+<script>
+         $(".open").click(function(){
+            $(".menu").toggleClass('men_mob');
+        
+        
+        
+        });
+    setInterval(function(){
+      //  console.log($("#myRange").attr('value'));
+
+        var rng=document.getElementById('myRange'); //rng - это Input
+  // console.log(rng.value);
+
+   rng.style.cssText = `background: linear-gradient(to right, #363740 ${rng.value}%,
+   #F7F8FC 0%);`;
+   var tes = Number(rng.value) + 1.5;
+   var tes1 = Number(rng.value) * 10000;
+   $(".badge-2").css('left', tes + "%")
+   $(".badge-2 span").text(tes1 + " ₽")
+
+ //  document.querySelector('#myRange').style.background = "linear-gradient(to right, #363740 " + rng.value + ", #F7F8FC 0%)";
+  // $(".slider-2").css('width', " " + rng.value + " ")
+
+
+
+
+
+    }, 10);
+</script>
+
+
+</body>
+</html>
